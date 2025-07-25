@@ -1,0 +1,39 @@
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.first-img{
+    padding: auto;
+    padding-left: 30px;
+}
+
+.main-nav{
+    margin-left: auto;
+    padding: 0% 5%;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.main-nav ul li:hover{
+    color: #e85a08;
+}
+
+.main-nav ul li{
+    display: inline;
+    padding: 0 10px;   
+}
+
+.cart{
+    padding-top: 20px;
+    padding-right: 30px;
+    
+}
+.cart :hover{
+    color: #e85a08;
+    cursor: pointer;
+}
+/* Header Part Complete */
+
