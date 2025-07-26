@@ -1,3 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #F5F8FF;
+}
+.noto-serif-<uniquifier> {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
 .main-header{
     display: flex;
     justify-content: space-between;
@@ -35,5 +58,161 @@
     color: #e85a08;
     cursor: pointer;
 }
-/* Header Part Complete */
+
+@media screen and (max-width: 768px) { 
+
+    .main-nav{
+    padding-top: 20px;
+    cursor: pointer;
+    }
+
+.main-nav ul li{
+     display: none;
+    }
+.first-img{
+    padding-top: 10px;
+    }
+.cart i{
+    padding-top: 20px;
+    }
+
+}
+/* Header Mobile Responsive Part Complete */
+
+.hero-heading {
+    display: flex;
+    justify-content: center;
+    max-width: 1300px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 80px 30px;
+    
+}
+.hero-size{
+    font-size: 4rem;
+    font-family: "Noto Serif", serif;
+    font-weight: 600;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.hero-text1{
+    color: #e85a08;
+}
+
+.hero-pera1{
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    padding-right: 200px;
+    color: rgba(0, 0, 0, 0.5);
+    
+}
+
+
+@media screen and (max-width: 768px) {
+        .hero-heading{ 
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            padding: 80px 20px;
+            flex-direction: column-reverse;
+            }
+
+        .hero-size{
+            font-size: 2rem;
+        }    
+        .hero-pera1{
+            padding-right: 0px;
+        }        
+}
+
+/* hero section mobile responsive done */
+
+/* Second section */
+
+.second-heading{
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;    
+}
+
+.second-title{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.second-size{
+    font-size: 40px;
+    font-family: "Noto Sans", sans-serif;
+}
+.second-text1{
+    color: #e85a08;
+}
+.second-pera1{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    text-decoration: rgba(0, 0, 0, 0.5);
+}
+
+/* 8 colum design start */
+
+.eight-colums{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1300px;
+    justify-items: center;
+    gap: 40px ;
+    padding: 0 20px;
+    padding-bottom: 100px;
+    
+}
+
+.box{
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+}
+.box img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.title{
+    font-family: "Inter", sans-serif;
+    color: #111111;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 5px; 
+}
+
+.pricing{
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: #111111;
+    padding-bottom: 5px;
+}
+
+.cart-button{
+    width: 100%;
+    background-color: #e85a08;
+    padding: 10px 15px;
+    border: none;
+}
+
+.cart-button a{
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* second section desktop version complete */
+
+/*  */
 
