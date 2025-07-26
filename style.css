@@ -121,9 +121,12 @@
 
         .hero-size{
             font-size: 2rem;
+            padding-top: 30px;
+            padding-bottom: 20px;
         }    
         .hero-pera1{
             padding-right: 0px;
+            
         }        
 }
 
@@ -522,4 +525,116 @@
 
 .footer-column-social img {
     padding-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .eight-colums {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      
+    }
+    .second-heading{
+        justify-items: center;
+        margin: 0px 20px;
+        flex-wrap: wrap;
+    }
+
+    .second-pera1{
+        padding: 0px
+    }
+
+    .container-two{
+        padding: 0 20px;
+    }
+
+    .badge{
+        display: none;
+    }
+    
+
+    .second-cols-headpara h2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding-bottom: 20px;
+        padding-left: 0px;
+    }
+
+    .second-cols-headpara p {
+        margin-bottom: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        padding-bottom: 20px;
+        padding-left: 0px;
+    }
+
+     .deals-promo-wrapper {
+        flex-direction: column;
+    }
+
+    .deals-promo-left {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .promo-card {
+        height: 200px; 
+        width: 100%;  
+    }
+
+    .zabo-promo {
+        flex: none;
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .highlighted-heading{
+        font-size: 1.6rem;
+    }
+
+    .para-four {
+        padding-bottom: 50px;
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 1rem;
+    }
+
+    .heading-five{
+        font-size: 1.5rem;
+    }
+
+    .section-five {
+        min-height: 150px;
+    }
+
+    .get-in-touch h2{
+        font-size: 1.5rem;
+    }
+    .get-in-touch input[type="email"] {
+        padding: 10px;
+        min-width: 200px;
+        height: 30px;
+        border: none;
+        font-size: 16px;
+    }
+    .four-cols {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        justify-items: left;
+        padding-left: 20px;
+
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+
+    .cols-four img{
+        padding-left: 0px;
+        padding-right: 20px;
+    }
+
+
 }
