@@ -214,5 +214,308 @@
 
 /* second section desktop version complete */
 
-/*  */
+/* third section */
 
+.container-two{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 1300px;
+    margin: 100px auto;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.first-colum-image{
+    width: 600px;
+    max-width: 100%;
+    position: relative;
+    border-radius:  10px;
+    overflow: visible;
+}
+
+.first-colum-image .main-image{
+    width: 100%;
+    display: block;
+}
+
+.first-colum-image .image-overlay{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+/* ---------------------------- */
+
+.first-column-image .badge {
+    position: absolute;
+    top: -80px;
+    right: -60px;
+    width: 220px;
+    z-index: 10;
+    border-radius: 100px;
+    background: transparent;
+}
+
+.second-column-heading-paragraph {
+    width: 600px;
+    max-width: 600px;
+}
+
+.second-column-heading-paragraph h2 {
+    color: #000000;
+    font-family: "Noto Serif", serif;
+    font-size: 3.1rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-left: 60px;
+}
+
+.second-column-heading-paragraph p {
+    margin-bottom: 15px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+
+.section-paragraph-small {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+}
+
+.section-paragraph-small i {
+    font-size: 8px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-right: 15px;
+}
+
+.latest-deals {
+    padding: 60px 20px;
+}
+
+.container-third {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.section-paragraph-wide {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    padding: 0px 300px;
+}
+
+.deals-promo-wrapper {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.deals-promo-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+.promo-card {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bloom-promo {
+    background-image: url(images/deal-bloom.png);
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.ana-promo {
+    background-image: url(images/deal-ana.png);
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.zabo-promo {
+    background-image: url(images/deal-zabo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 320px;
+    flex: 2;
+}
+
+.promo-overlay-text {
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+}
+
+.promo-overlay-text h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    background-color: transparent;
+    font-family: "Noto Serif", serif;
+}
+
+.highlighted-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    background-color: transparent;
+    font-family: "Noto Serif", serif;
+}
+
+.promo-overlay-text a {
+    display: inline-block;
+    padding: 8px 16px;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 4px;
+    text-decoration: underline;
+    font-size: 18px;
+    background-color: transparent;
+}
+
+.promo-card::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+}
+
+.subscribe-section {
+    background-image: url('images/news-letter-bg.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    padding: 100px 20px;
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-subscribe {
+    background: transparent;
+    width: 100%;
+    max-width: 1300px;
+    justify-items: center;
+}
+
+.subscribe-form-wrapper {
+    background: transparent !important;
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    padding: 0;  
+}
+
+.subscribe-form-wrapper h2 {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    background: transparent;
+    font-family: "Noto Serif", serif;
+}
+
+.subscribe-form-wrapper form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.subscribe-form-wrapper input[type="email"] {
+    padding: 10px;
+    min-width: 400px;
+    height: 30px;
+    border: none;
+    font-size: 16px;
+}
+
+.subscribe-form-wrapper button {
+    padding: 10px 20px;
+    background: #E95A08;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.subscribe-form-wrapper button:hover {
+    background: #d14d00;
+}
+
+.site-footer {
+    padding: 50px 0;
+}
+
+.footer-columns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 40px;
+    max-width: 1300px; 
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+}
+
+.footer-column-logo img {
+    width: 60%;
+    height: auto;
+}
+
+.footer-description {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    padding-top: 20px;
+}
+
+.footer-column-links ul li {
+    list-style-type: none;
+    padding-bottom: 30px;
+}
+
+.footer-column-links ul li a {
+    color: rgba(0, 0, 0, 0.5);
+    size: 1.5rem;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+}
+
+.footer-column-info-links ul li {
+    list-style-type: none;
+    padding-bottom: 30px;
+}
+
+.footer-column-info-links ul li a {
+    color: rgba(0, 0, 0, 0.5);
+    size: 1.5rem;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+}
+
+.footer-column-social img {
+    padding-left: 20px;
+}
