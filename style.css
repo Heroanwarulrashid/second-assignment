@@ -152,6 +152,8 @@
     font-family: "Inter", sans-serif;
     font-size: 15px;
     text-decoration: rgba(0, 0, 0, 0.5);
+    padding: 10px 350px;
+    line-height: 25px;
 }
 
 /* 8 colum design start */
@@ -218,40 +220,37 @@
 
 .container-two{
     display: flex;
-    justify-items: center;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     max-width: 1300px;
+    justify-items: center;
     margin: 100px auto;
     gap: 50px;
     flex-wrap: wrap;
 }
 
-.first-colum-image{
+.first-cols-img {
+    position: relative;
     width: 600px;
     max-width: 100%;
-    position: relative;
-    border-radius:  10px;
-    overflow: visible;
+    border-radius: 10px;
+    overflow: visible; 
 }
 
-.first-colum-image .main-image{
+.first-cols-img .main-img {
     width: 100%;
     display: block;
 }
 
-.first-colum-image .image-overlay{
-    width: 100%;
-    height: auto;
+.first-cols-img .img-overlay {
     position: absolute;
     bottom: 0;
     left: 0;
-
+    height: auto;
+    width: 100%;
 }
 
-/* ---------------------------- */
-
-.first-column-image .badge {
+.first-cols-img .badge {
     position: absolute;
     top: -80px;
     right: -60px;
@@ -261,12 +260,12 @@
     background: transparent;
 }
 
-.second-column-heading-paragraph {
+.second-cols-headpara {
     width: 600px;
     max-width: 600px;
 }
 
-.second-column-heading-paragraph h2 {
+.second-cols-headpara h2 {
     color: #000000;
     font-family: "Noto Serif", serif;
     font-size: 3.1rem;
@@ -275,24 +274,34 @@
     padding-left: 60px;
 }
 
-.second-column-heading-paragraph p {
+.second-cols-headpara p {
     margin-bottom: 15px;
     color: rgba(0, 0, 0, 0.5);
     padding-left: 100px;
     padding-bottom: 20px;
 }
 
-.section-paragraph-small {
+.para-third{
     color: rgba(0, 0, 0, 0.5);
     font-family: "Inter", sans-serif;
     font-size: 1rem;
 }
 
-.section-paragraph-small i {
+.para-third i{
     font-size: 8px;
     color: rgba(0, 0, 0, 0.5);
     padding-right: 15px;
 }
+
+/* Four section */
+
+
+.deals{
+    padding: 60px 20px;
+
+}
+
+
 
 .latest-deals {
     padding: 60px 20px;
@@ -303,12 +312,7 @@
     margin: 0 auto;
 }
 
-.section-paragraph-wide {
-    color: rgba(0, 0, 0, 0.5);
-    font-family: "Inter", sans-serif;
-    font-size: 1.2rem;
-    padding: 0px 300px;
-}
+
 
 .deals-promo-wrapper {
     display: flex;
@@ -395,7 +399,7 @@
     content: '';
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.342);
     z-index: 0;
 }
 
