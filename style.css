@@ -25,13 +25,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
     
 }
 
-.first-img{
-    padding: auto;
-    padding-left: 30px;
-}
 
 .main-nav{
     margin-left: auto;
@@ -635,6 +633,5 @@
         padding-left: 0px;
         padding-right: 20px;
     }
-
 
 }
