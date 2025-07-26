@@ -604,20 +604,20 @@
     }
 
     .section-five {
-        min-height: 150px;
+        min-height: 100px;
     }
 
-    .get-in-touch h2{
+    .subscribe-form-wrapper h2{
         font-size: 1.5rem;
     }
-    .get-in-touch input[type="email"] {
+    .subscribe-form-wrapper input[type="email"] {
         padding: 10px;
         min-width: 200px;
         height: 30px;
         border: none;
         font-size: 16px;
     }
-    .four-cols {
+    .footer-columns {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 30px;
@@ -631,7 +631,7 @@
         text-align: left;
     }
 
-    .cols-four img{
+    .footer-column-social img{
         padding-left: 0px;
         padding-right: 20px;
     }
